@@ -2,8 +2,9 @@ This is a set of integral test suites for Sage based upon Tim Daly's work for Ax
 
 http://axiom-developer.org/axiom-website/CATS/
 
-The tests check the integration via Sage to the Schaum's tabulated value of the integral. However, integrals which have more than one solution have no Schaum's result tabulated. These integrals
-will fail.
+The schaum pamphlet files are from this web site.
+
+The tests check the integration via Sage to the Schaum's tabulated value of the integral. However, integrals which have more than one solution have no Schaum's result tabulated. These integrals will fail.
 
 Tickets for this test suite can be entered over at Lighthouse:
 
