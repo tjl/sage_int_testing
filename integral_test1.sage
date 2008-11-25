@@ -52,6 +52,7 @@ def test_eval(test, test_int, desired_result):
 		test_cmp = (desired_result.simplify_full()-test_int.simplify_full()).simplify_full()
 	except:
 		print "Test", test,": Test failed. Unable to compare results."
+		print "Calculated Integral: ", test_int
 		return
 	if (test_cmp == 0):
 		print "Test", test,": Test Passed."
@@ -68,6 +69,8 @@ def test_eval(test, test_int, desired_result):
 				print "Correct within a constant multiple."
 			else:
 				print "Test Failed."
+				print "Calculated Integral: ", test_int
+				print "Comparison Integral: ", desired_result
 
 # Time integration of Maxima and FriCAS for integral.
 def time_Maxima_friCAS(integrand):
