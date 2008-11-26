@@ -10,5 +10,6 @@ Tickets for this test suite can be entered over at Lighthouse:
 
 http://wizardscastlesoftware.lighthouseapp.com/projects/20592-sage-integral-test-suite/
 
+Note that this requires Sage 3.2 (because of the changes to timeit in that release) and the FriCAS optional package. For those who don't have FriCAS installed, just comment out the lines where axiom.integrate is called.
 
 
