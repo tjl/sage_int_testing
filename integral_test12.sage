@@ -12,7 +12,7 @@
 # Spiegel, Murray R. 
 # Mathematical Handbook of Formulas and Tables
 # Schaum's Outline Series McGraw-Hill 1968
-# 14.265-14.279
+# 14.265-14.276
  
 # Original Inspiration for this from:
 # http://axiom-developer.org/axiom-website/CATS/
