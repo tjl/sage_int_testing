@@ -12,7 +12,7 @@
 # Spiegel, Murray R. 
 # Mathematical Handbook of Formulas and Tables
 # Schaum's Outline Series McGraw-Hill 1968
-# 14.105-14.112
+# 14.280-14.298
  
 # Original Inspiration for this from:
 # http://axiom-developer.org/axiom-website/CATS/
@@ -20,18 +20,30 @@
 # Thanks to Tim Daly.
 
 # Define the necessary variables
-var('x,a,b,n,m,p,q')
+var('x,a,b,n,m,c')
 
 # Define the table of integral tests. Format is test #, [integrand,desired result]
-int_table = { 1 : [1/((a*x+b)*(p*x+q)),1/(b*p-a*q)*log((p*x+q)/(a*x+b))],
-			  2 : [x/((a*x+b)*(p*x+q)),1/(b*p-a*q)*(b/a*log(a*x+b)-q/p*log(p*x+q))],
-			  3 : [1/((a*x+b)^2*(p*x+q)),1/(b*p-a*q)*(1/(a*x+b)+p/(b*p-a*q)*log((p*x+q)/(a*x+b)))],
-			  4 : [x/((a*x+b)^2*(p*x+q)),1/(b*p-a*q)*(q/(b*p-a*q)*log((a*x+b)/(p*x+q))-b/(a*(a*x+b)))],
-			  5 : [x^2/((a*x+b)^2*(p*x+q)),b^2/((b*p-a*q)*a^2*(a*x+b))+1/(b*p-a*q)^2*(q^2/p*log(p*x+q)+((b*(b*p-2*a*q))/a^2)*log(a*x+b))],
-			  6 : [1/((a*x+b)^m*(p*x+q)^n),0],
-			  7 : [(a*x+b)/(p*x+q),(a*x)/p+(b*p-a*q)/p^2*log(p*x+q)],
-			  8 : [(a*x+b)^m/(p*x+q)^n,0]
+int_table = { 'Schaum 14.280' : [1/sqrt(a*x^2+b*x+c),0],
+ 			  'Schaum 14.281' : [x/sqrt(a*x^2+b*x+c),0],
+			  'Schaum 14.282' : [x^2/sqrt(a*x^2+b*x+c),0],
+			  'Schaum 14.283' : [1/(x*sqrt(a*x^2+b*x+c)),0],
+			  'Schaum 14.284' : [1/(x^2*sqrt(a*x^2+b*x+c)),0],
+			  'Schaum 14.285' : [sqrt(a*x^2+b*x+c),0],
+			  'Schaum 14.286' : [x*sqrt(a*x^2+b*x+c),0],
+			  'Schaum 14.287' : [x^2*sqrt(a*x^2+b*x+c),0],
+			  'Schaum 14.288' : [sqrt(a*x^2+b*x+c)/x,0],
+			  'Schaum 14.289' : [sqrt(a*x^2+b*x+c)/x^2,0],
+			  'Schaum 14.290' : [1/(a*x^2+b*x+c)^(3/2),(2*(2*a*x+b))/((4*a*c-b^2)*sqrt(a*x^2+b*x+c))],
+			  'Schaum 14.291' : [x/(a*x^2+b*x+c)^(3/2),(2*(b*x+2*c))/((b^2-4*a*c)*sqrt(a*x^2+b*x+c))],
+			  'Schaum 14.292' : [x^2/(a*x^2+b*x+c)^(3/2),0],
+			  'Schaum 14.293' : [1/(x*(a*x^2+b*x+c)^(3/2)),0],
+			  'Schaum 14.294' : [x^2/(a*x^2+b*x+c)^(3/2),0],
+			  'Schaum 14.295' : [(a*x^2+b*x+c)^(n+1/2),0],
+			  'Schaum 14.296' : [x*(a*x^2+b*x+c)^(n+1/2),0],
+			  'Schaum 14.297' : [1/(a*x^2+b*x+c)^(n+1/2),0],
+			  'Schaum 14.298' : [1/(x*(a*x^2+b*x+c)^(n+1/2)),0]
 			}
+			
 
 # Check to see if test passed and print result.
 def test_eval(test, test_int, desired_result):
