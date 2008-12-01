@@ -12,7 +12,7 @@
 # Spiegel, Murray R. 
 # Mathematical Handbook of Formulas and Tables
 # Schaum's Outline Series McGraw-Hill 1968
-# 14.105-14.112
+# 14.299-14.310
  
 # Original Inspiration for this from:
 # http://axiom-developer.org/axiom-website/CATS/
@@ -20,18 +20,24 @@
 # Thanks to Tim Daly.
 
 # Define the necessary variables
-var('x,a,b,n,m,p,q')
+var('x,a,b,n,m,c')
 
+#
 # Define the table of integral tests. Format is test #, [integrand,desired result]
-int_table = { 1 : [1/((a*x+b)*(p*x+q)),1/(b*p-a*q)*log((p*x+q)/(a*x+b))],
-			  2 : [x/((a*x+b)*(p*x+q)),1/(b*p-a*q)*(b/a*log(a*x+b)-q/p*log(p*x+q))],
-			  3 : [1/((a*x+b)^2*(p*x+q)),1/(b*p-a*q)*(1/(a*x+b)+p/(b*p-a*q)*log((p*x+q)/(a*x+b)))],
-			  4 : [x/((a*x+b)^2*(p*x+q)),1/(b*p-a*q)*(q/(b*p-a*q)*log((a*x+b)/(p*x+q))-b/(a*(a*x+b)))],
-			  5 : [x^2/((a*x+b)^2*(p*x+q)),b^2/((b*p-a*q)*a^2*(a*x+b))+1/(b*p-a*q)^2*(q^2/p*log(p*x+q)+((b*(b*p-2*a*q))/a^2)*log(a*x+b))],
-			  6 : [1/((a*x+b)^m*(p*x+q)^n),0],
-			  7 : [(a*x+b)/(p*x+q),(a*x)/p+(b*p-a*q)/p^2*log(p*x+q)],
-			  8 : [(a*x+b)^m/(p*x+q)^n,0]
+int_table = { 'Schaum 14.299' : [1/(x^3+a^3),1/(6*a^2)*log((x+a)^2/(x^2-a*x+a^2))+1/(a^2*sqrt(3))*atan((2*x-a)/(a*sqrt(3)))],
+			  'Schaum 14.300' : [x/(x^3+a^3),1/(6*a)*log((x^2-a*x+a^2)/(x+a)^2)+1/(a*sqrt(3))*atan((2*x-a)/(a*sqrt(3)))],
+			  'Schaum 14.301' : [x^2/(x^3+a^3),1/3*log(x^3+a^3)],
+			  'Schaum 14.302' : [1/(x*(x^3+a^3)),1/(3*a^3)*log(x^3/(x^3+a^3))],
+			  'Schaum 14.303' : [1/(x^2*(x^3+a^3)),-1/(a^3*x)-1/(6*a^4)*log((x^2-a*x+a^2)/(x+a)^2)-1/(a^4*sqrt(3))*atan((2*x-a)/(a*sqrt(3)))],
+			  'Schaum 14.304' : [1/(x^3+a^3)^2,x/(3*a^3*(x^3+a^3))+1/(9*a^5)*log((x+a)^2/(x^2-a*x+a^2))+2/(3*a^5*sqrt(3))*atan((2*x-a)/(a*sqrt(3)))],
+			  'Schaum 14.305' : [x/(x^3+a^3)^2,x^2/(3*a^3*(x^3+a^3))+1/(18*a^4)*log((x^2-a*x+a^2)/(x+a)^2)+1/(3*a^4*sqrt(3))*atan((2*x-a)/(a*sqrt(3)))],
+			  'Schaum 14.306' : [x^2/(x^3+a^3)^2,-1/(3*(x^3+a^3))],
+			  'Schaum 14.307' : [1/(x*(x^3+a^3)^2),1/(3*a^3*(x^3+a^3))+1/(3*a^6)*log(x^3/(x^3+a^3))],
+			  'Schaum 14.308' : [1/(x^2*(x^3+a^3)^2),-1/(a^6*x)-x^2/(3*a^6*(x^3+a^3))-4/(3*a^6)*integrate(x/(x^3+a^3),x)],
+			  'Schaum 14.309' : [x^m/(x^3+a^3),0],
+			  'Schaum 14.310' : [1/(x^n*(x^3+a^3)),0]
 			}
+			
 
 # Check to see if test passed and print result.
 def test_eval(test, test_int, desired_result):
