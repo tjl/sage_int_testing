@@ -6,9 +6,9 @@ The schaum pamphlet files are from this web site.
 
 The tests check the integration via Sage to the Schaum's tabulated value of the integral. However, integrals which have more than one solution have no Schaum's result tabulated. These integrals will fail.
 
-Tickets for this test suite can be entered over at Lighthouse:
+Tickets for this test suite can be entered using the GitHub issues interface:
 
-http://wizardscastlesoftware.lighthouseapp.com/projects/20592-sage-integral-test-suite/
+http://github.com/tjl/sage_int_testing/issues
 
 Note that this requires Sage 3.2 (because of the changes to timeit in that release) and the FriCAS optional package. For those who don't have FriCAS installed, just comment out the lines where axiom.integrate is called.
 
