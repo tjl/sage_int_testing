@@ -1,0 +1,96 @@
+Test Schaum 14.233 : Test Passed.
+Maxima Time: 29.2520427704 ms
+FriCAS Time: 272.067785263 ms
+Test Schaum 14.227 : Test failed due to exception.
+Test Schaum 14.226 : Test Passed.
+Maxima Time: 27.8315162659 ms
+FriCAS Time: 92.4282073975 ms
+Test Schaum 14.225  Difference in Results: 
+                                   - log(2)
+Correct within a constant of integration.
+Test Passed.
+Maxima Time: 25.8718013763 ms
+FriCAS Time: 87.2042179108 ms
+Test Schaum 14.224 : Test Passed.
+Maxima Time: 23.5706806183 ms
+FriCAS Time: 49.6734142303 ms
+Test Schaum 14.223 : Test Passed.
+Maxima Time: 24.3175983429 ms
+FriCAS Time: 33.9685916901 ms
+Test Schaum 14.222 : Test failed due to exception.
+Test Schaum 14.221 : Test failed due to exception.
+Test Schaum 14.220 : Test failed due to exception.
+Test Schaum 14.229 : Test failed due to exception.
+Test Schaum 14.228 : Test failed due to exception.
+Test Schaum 14.232  Difference in Results: 
+                                            6
+                                    log(2) a
+                                  - ---------
+                                       16
+Correct within a constant of integration.
+Test Passed.
+Maxima Time: 40.1965999603 ms
+FriCAS Time: 326.624011993 ms
+Test Schaum 14.219 : Test Passed.
+Maxima Time: 39.7194766998 ms
+FriCAS Time: 165.448617935 ms
+Test Schaum 14.230  Difference in Results: 
+                                             4
+                                   3 log(2) a
+                                 - -----------
+                                        8
+Correct within a constant of integration.
+Test Passed.
+Maxima Time: 39.7274017334 ms
+FriCAS Time: 180.932426453 ms
+Test Schaum 14.231 : Test Passed.
+Maxima Time: 32.7617931366 ms
+FriCAS Time: 133.060407639 ms
+Test Schaum 14.218  Difference in Results: 
+                                           4
+                                   log(2) a
+                                   ---------
+                                       8
+Correct within a constant of integration.
+Test Passed.
+Maxima Time: 40.1462078094 ms
+FriCAS Time: 176.998806 ms
+Test Schaum 14.xxx : Test Passed.
+Maxima Time: 29.9804210663 ms
+FriCAS Time: 38.7386322021 ms
+Test Schaum 14.234 : Test failed due to exception.
+Test Schaum 14.235 : Test failed due to exception.
+Test Schaum 14.236 : Test failed due to exception.
+Test Schaum 14.212 : Test Passed.
+Maxima Time: 43.9801216125 ms
+FriCAS Time: 89.0258312225 ms
+Test Schaum 14.213 : Test failed due to exception.
+Test Schaum 14.210  Difference in Results: 
+                                   - log(2)
+Correct within a constant of integration.
+Test Passed.
+Maxima Time: 38.9249801636 ms
+FriCAS Time: 36.8637561798 ms
+Test Schaum 14.211  Difference in Results: 
+                                            2
+                                    log(2) a
+                                  - ---------
+                                        2
+Correct within a constant of integration.
+Test Passed.
+Maxima Time: 45.2404022217 ms
+FriCAS Time: 81.6324234009 ms
+Test Schaum 14.216  Difference in Results: 
+                                           2
+                                   log(2) a
+                                   ---------
+                                       2
+Correct within a constant of integration.
+Test Passed.
+Maxima Time: 41.2847995758 ms
+FriCAS Time: 67.2254085541 ms
+Test Schaum 14.217 : Test Passed.
+Maxima Time: 41.6592121124 ms
+FriCAS Time: 79.986000061 ms
+Test Schaum 14.214 : Test failed due to exception.
+Test Schaum 14.215 : Test failed due to exception.

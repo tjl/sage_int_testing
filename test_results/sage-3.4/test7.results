@@ -1,0 +1,79 @@
+Test Schaum 14.160 : Test failed. Unable to compare results.
+Calculated Integral:  
+                               /
+                               [      1
+                               I ------------ dx
+                               ]     2    2 n
+                               / x (x  - a )
+Maxima Time: 45.9740352631 ms
+FriCAS Time: 41.1727905273 ms
+Test Schaum 14.156 : Test Passed.
+Maxima Time: 34.1581535339 ms
+FriCAS Time: 66.8461799622 ms
+Test Schaum 14.162 : Test failed. Unable to compare results.
+Calculated Integral:  
+                              /
+                              [       1
+                              I ------------- dx
+                              ]  m   2    2 n
+                              / x  (x  - a )
+Maxima Time: 123.613595963 ms
+FriCAS Time: 121.096229553 ms
+Test Schaum 14.157 : Test Passed.
+Maxima Time: 34.4266033173 ms
+FriCAS Time: 78.1500339508 ms
+Test Schaum 14.154 : Test Passed.
+Maxima Time: 28.5831165314 ms
+FriCAS Time: 32.9285621643 ms
+Test Schaum 14.161 : Test failed. Unable to compare results.
+Calculated Integral:  
+                                /      m
+                                [     x
+                                I ---------- dx
+                                ]   2    2 n
+                                / (x  - a )
+Maxima Time: 108.82358551 ms
+FriCAS Time: 122.67241478 ms
+Test Schaum 14.155 : Test Passed.
+Maxima Time: 40.4533195496 ms
+FriCAS Time: 117.616987228 ms
+Test Schaum 14.159 : Test failed due to exception.
+Test Schaum 14.158 : Test failed. Unable to compare results.
+Calculated Integral:  
+                                /
+                                [     1
+                                I ---------- dx
+                                ]   2    2 n
+                                / (x  - a )
+Maxima Time: 88.1122112274 ms
+FriCAS Time: 45.6078052521 ms
+Test Schaum 14.148 : Test Passed.
+Maxima Time: 30.0781726837 ms
+FriCAS Time: 41.4703845978 ms
+Test Schaum 14.149 : Test Passed.
+Maxima Time: 37.344751358 ms
+FriCAS Time: 39.866399765 ms
+Test Schaum 14.146 : Test Passed.
+Maxima Time: 37.4840831757 ms
+FriCAS Time: 30.4367542267 ms
+Test Schaum 14.147 : Test Passed.
+Maxima Time: 70.6974029541 ms
+FriCAS Time: 62.7188205719 ms
+Test Schaum 14.144 : Test Passed.
+Maxima Time: 115.494012833 ms
+FriCAS Time: 52.4222373962 ms
+Test Schaum 14.145 : Test Passed.
+Maxima Time: 56.8141937256 ms
+FriCAS Time: 24.1510009766 ms
+Test Schaum 14.151 : Test Passed.
+Maxima Time: 41.7987823486 ms
+FriCAS Time: 42.1284198761 ms
+Test Schaum 14.150 : Test Passed.
+Maxima Time: 42.9896450043 ms
+FriCAS Time: 60.0088119507 ms
+Test Schaum 14.153 : Test Passed.
+Maxima Time: 44.2165851593 ms
+FriCAS Time: 42.1242237091 ms
+Test Schaum 14.152 : Test Passed.
+Maxima Time: 40.8847808838 ms
+FriCAS Time: 15.6963253021 ms

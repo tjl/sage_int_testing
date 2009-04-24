@@ -1,0 +1,125 @@
+Test 1 : Test Passed.
+Maxima Time: 20.9334850311 ms
+FriCAS Time: 19.2008018494 ms
+Test 2 : Test Passed.
+Maxima Time: 26.8406772614 ms
+FriCAS Time: 24.5773601532 ms
+Test 3  Difference in Results: 
+                                         2
+                                      3 b
+                                    - ----
+                                         3
+                                      2 a
+Correct within a constant of integration.
+Test Passed.
+Maxima Time: 29.7513198853 ms
+FriCAS Time: 26.6238212585 ms
+Test 4  Difference in Results: 
+                                         3
+                                     11 b
+                                     -----
+                                        4
+                                     6 a
+Correct within a constant of integration.
+Test Passed.
+Maxima Time: 34.0157604218 ms
+FriCAS Time: 33.4813594818 ms
+Test 5 : Test Passed.
+Maxima Time: 29.5424461365 ms
+FriCAS Time: 35.7498168945 ms
+Test 6 : Test Passed.
+Maxima Time: 37.8831291199 ms
+FriCAS Time: 57.364988327 ms
+Test 7 : Test Passed.
+Maxima Time: 39.9574279785 ms
+FriCAS Time: 56.466627121 ms
+Test 8 : Test Passed.
+Maxima Time: 32.1929168701 ms
+FriCAS Time: 17.1571540833 ms
+Test 9 : Test Passed.
+Maxima Time: 39.0052032471 ms
+FriCAS Time: 32.2283744812 ms
+Test 10  Difference in Results: 
+                                      b
+                                      --
+                                       3
+                                      a
+Correct within a constant of integration.
+Test Passed.
+Maxima Time: 42.2403812408 ms
+FriCAS Time: 46.3950157166 ms
+Test 11  Difference in Results: 
+                                         2
+                                      5 b
+                                    - ----
+                                         4
+                                      2 a
+Correct within a constant of integration.
+Test Passed.
+Maxima Time: 44.2038059235 ms
+FriCAS Time: 50.853395462 ms
+Test 12 : Test Passed.
+Maxima Time: 46.3010311127 ms
+FriCAS Time: 68.9559936523 ms
+Test 13 : Test Passed.
+Maxima Time: 47.0687866211 ms
+FriCAS Time: 95.3154087067 ms
+Test 14  Difference in Results: 
+                                        2
+                                     3 a
+                                     ----
+                                        4
+                                     2 b
+Correct within a constant of integration.
+Test Passed.
+Maxima Time: 53.2775878906 ms
+FriCAS Time: 103.06520462 ms
+Test 15  Difference in Results: 
+                                     1 - a
+                          ---------------------------
+                             3  2      2            2
+                          2 a  x  + 4 a  b x + 2 a b
+Division of Results: a
+Correct within a constant multiple.
+Maxima Time: 42.3925876617 ms
+FriCAS Time: 26.4402770996 ms
+Test 16 : Test Passed.
+Maxima Time: 47.9303836823 ms
+FriCAS Time: 41.6074371338 ms
+Test 17 : Test Passed.
+Maxima Time: 54.8389911652 ms
+FriCAS Time: 56.18019104 ms
+Test 18 : Test Passed.
+Maxima Time: 57.6188087463 ms
+FriCAS Time: 74.6240139008 ms
+Test 19  Difference in Results: 
+                                       3
+                                    - ----
+                                         3
+                                      2 b
+Correct within a constant of integration.
+Test Passed.
+Maxima Time: 64.8767948151 ms
+FriCAS Time: 198.592805862 ms
+Test 20 : Test Passed.
+Maxima Time: 69.532585144 ms
+FriCAS Time: 161.124801636 ms
+Test 21 : Test Passed.
+Maxima Time: 73.2339859009 ms
+FriCAS Time: 149.734783173 ms
+Test 22 : Test failed due to exception.
+Test 23 : Test Passed.
+Maxima Time: 66.5493965149 ms
+FriCAS Time: 56.9689750671 ms
+Test 24 : Test Passed.
+Maxima Time: 117.639398575 ms
+FriCAS Time: 75.3047943115 ms
+Test 25 : Test failed. Unable to compare results.
+Calculated Integral:  
+                              /
+                              [  m          n
+                              I x  (a x + b)  dx
+                              ]
+                              /
+Maxima Time: 78.338432312 ms
+FriCAS Time: 129.998588562 ms

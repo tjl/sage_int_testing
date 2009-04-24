@@ -1,0 +1,101 @@
+Test 1 : Test Passed.
+Maxima Time: 21.2815189362 ms
+FriCAS Time: 25.4270076752 ms
+Test 2 : Test Passed.
+Maxima Time: 29.1427612305 ms
+FriCAS Time: 34.0312004089 ms
+Test 3 : Test Passed.
+Maxima Time: 31.6032791138 ms
+FriCAS Time: 37.469959259 ms
+Test 4 : Test failed due to exception.
+Test 5 : Test Passed.
+Maxima Time: 24.9191188812 ms
+FriCAS Time: 26.4301776886 ms
+Test 6 : Test Passed.
+Maxima Time: 34.4670009613 ms
+FriCAS Time: 33.4015846252 ms
+Test 7  Difference in Results: 
+                             2    3        3         2   2
+         (sqrt(b x + a) (30 a  b x  + (30 a  - 24 a b ) x
+        3       2              2
+ + (16 b  - 24 a  b) x + 16 a b ) + sqrt(a x + b)
+        3  3      2    2        2         3         3
+ (- 30 a  x  - 6 a  b x  + 8 a b  x - 16 b ))/(105 a )
+Test Failed.
+Calculated Integral:  
+                        7/2                5/2      2          3/2
+             2 (a x + b)      4 b (a x + b)      2 b  (a x + b)
+             -------------- - ---------------- + -----------------
+                     3                 3                  3
+                  7 a               5 a                3 a
+Comparison Integral:  
+                                3       2  2                 2
+                2 sqrt((b x + a) ) (15 a  x  - 12 a b x + 8 b )
+                -----------------------------------------------
+                                         3
+                                    105 a
+Maxima Time: 44.7131633759 ms
+FriCAS Time: 39.2914295197 ms
+Test 8 : Test failed due to exception.
+Test 9 : Test failed due to exception.
+Test 10 : Test failed. Unable to compare results.
+Calculated Integral:  
+                              /       m
+                              [      x
+                              I ------------- dx
+                              ] sqrt(a x + b)
+                              /
+Maxima Time: 76.2708187103 ms
+FriCAS Time: 61.2493991852 ms
+Test 11 : Test failed. Unable to compare results.
+Calculated Integral:  
+                             /
+                             [        1
+                             I ---------------- dx
+                             ]  m
+                             / x  sqrt(a x + b)
+Maxima Time: 64.5366191864 ms
+FriCAS Time: 60.2486133575 ms
+Test 12 : Test failed. Unable to compare results.
+Calculated Integral:  
+                              /
+                              [ sqrt(a x + b)
+                              I ------------- dx
+                              ]       m
+                              /      x
+Maxima Time: 59.6037864685 ms
+FriCAS Time: 71.9051837921 ms
+Test 13 : Test failed due to exception.
+Test 14 : Test Passed.
+Maxima Time: 58.5067749023 ms
+FriCAS Time: 62.5579833984 ms
+Test 15 : Test Passed.
+Maxima Time: 56.5903663635 ms
+FriCAS Time: 98.9151954651 ms
+Test 16 : Test failed. Unable to compare results.
+Calculated Integral:  
+                               /          m/2
+                               [ (a x + b)
+                               I ------------ dx
+                               ]      x
+                               /
+Maxima Time: 53.6243915558 ms
+FriCAS Time: 59.6767902374 ms
+Test 17 : Test failed. Unable to compare results.
+Calculated Integral:  
+                               /          m/2
+                               [ (a x + b)
+                               I ------------ dx
+                               ]       2
+                               /      x
+Maxima Time: 51.947593689 ms
+FriCAS Time: 73.8895893097 ms
+Test 18 : Test failed. Unable to compare results.
+Calculated Integral:  
+                              /
+                              [       1
+                              I -------------- dx
+                              ]            m/2
+                              / x (a x + b)
+Maxima Time: 54.5412063599 ms
+FriCAS Time: 56.9573879242 ms

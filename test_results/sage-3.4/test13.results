@@ -1,0 +1,51 @@
+Test Schaum 14.281 : Test failed due to exception.
+Test Schaum 14.280 : Test failed due to exception.
+Test Schaum 14.283 : Test failed due to exception.
+Test Schaum 14.282 : Test failed due to exception.
+Test Schaum 14.285 : Test failed due to exception.
+Test Schaum 14.284 : Test failed due to exception.
+Test Schaum 14.287 : Test failed due to exception.
+Test Schaum 14.286 : Test failed due to exception.
+Test Schaum 14.289 : Test failed due to exception.
+Test Schaum 14.288 : Test failed due to exception.
+Test Schaum 14.298 : Test failed. Unable to compare results.
+Calculated Integral:  
+                        /     2           - n - 1/2
+                        [ (a x  + b x + c)
+                        I ------------------------- dx
+                        ]             x
+                        /
+Maxima Time: 92.8165912628 ms
+FriCAS Time: 74.3534088135 ms
+Test Schaum 14.295 : Test failed. Unable to compare results.
+Calculated Integral:  
+                         /
+                         [     2           n + 1/2
+                         I (a x  + b x + c)        dx
+                         ]
+                         /
+Maxima Time: 65.7643795013 ms
+FriCAS Time: 123.047399521 ms
+Test Schaum 14.290 : Test failed due to exception.
+Test Schaum 14.294 : Test failed due to exception.
+Test Schaum 14.291 : Test failed due to exception.
+Test Schaum 14.293 : Test failed due to exception.
+Test Schaum 14.296 : Test failed. Unable to compare results.
+Calculated Integral:  
+                        /
+                        [       2           n + 1/2
+                        I x (a x  + b x + c)        dx
+                        ]
+                        /
+Maxima Time: 96.5610027313 ms
+FriCAS Time: 130.565404892 ms
+Test Schaum 14.292 : Test failed due to exception.
+Test Schaum 14.297 : Test failed. Unable to compare results.
+Calculated Integral:  
+                        /
+                        [     2           - n - 1/2
+                        I (a x  + b x + c)          dx
+                        ]
+                        /
+Maxima Time: 87.7346038818 ms
+FriCAS Time: 102.524232864 ms

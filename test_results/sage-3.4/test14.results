@@ -1,0 +1,48 @@
+Test Schaum 14.300 : Test Passed.
+Maxima Time: 27.5641918182 ms
+FriCAS Time: 70.5366134644 ms
+Test Schaum 14.301 : Test Passed.
+Maxima Time: 21.9963264465 ms
+FriCAS Time: 20.91132164 ms
+Test Schaum 14.302 : Test Passed.
+Maxima Time: 21.9230175018 ms
+FriCAS Time: 52.8248310089 ms
+Test Schaum 14.303 : Test Passed.
+Maxima Time: 41.0837173462 ms
+FriCAS Time: 88.1613731384 ms
+Test Schaum 14.304 : Test Passed.
+Maxima Time: 35.6872081757 ms
+FriCAS Time: 93.8766002655 ms
+Test Schaum 14.305 : Test Passed.
+Maxima Time: 37.6490116119 ms
+FriCAS Time: 93.8817977905 ms
+Test Schaum 14.306 : Test Passed.
+Maxima Time: 25.630607605 ms
+FriCAS Time: 15.7099628448 ms
+Test Schaum 14.307 : Test Passed.
+Maxima Time: 33.4894180298 ms
+FriCAS Time: 106.039190292 ms
+Test Schaum 14.308 : Test Passed.
+Maxima Time: 57.3905944824 ms
+FriCAS Time: 160.89258194 ms
+Test Schaum 14.309 : Test failed. Unable to compare results.
+Calculated Integral:  
+                                 /    m
+                                 [   x
+                                 I ------- dx
+                                 ]  3    3
+                                 / x  + a
+Maxima Time: 89.8351669312 ms
+FriCAS Time: 45.7823753357 ms
+Test Schaum 14.299 : Test Passed.
+Maxima Time: 42.1976089478 ms
+FriCAS Time: 71.031999588 ms
+Test Schaum 14.310 : Test failed. Unable to compare results.
+Calculated Integral:  
+                               /
+                               [      1
+                               I ------------ dx
+                               ]  n   3    3
+                               / x  (x  + a )
+Maxima Time: 58.8350296021 ms
+FriCAS Time: 47.6488113403 ms

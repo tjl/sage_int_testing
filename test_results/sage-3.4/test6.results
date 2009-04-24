@@ -1,0 +1,79 @@
+Test Schaum 14.128 : Test Passed.
+Maxima Time: 22.4873638153 ms
+FriCAS Time: 22.6784229279 ms
+Test Schaum 14.129 : Test Passed.
+Maxima Time: 27.353477478 ms
+FriCAS Time: 39.5153999329 ms
+Test Schaum 14.139 : Test failed. Unable to compare results.
+Calculated Integral:  
+                                /
+                                [     1
+                                I ---------- dx
+                                ]   2    2 n
+                                / (x  + a )
+Maxima Time: 38.4312152863 ms
+FriCAS Time: 42.2565937042 ms
+Test Schaum 14.138 : Test Passed.
+Maxima Time: 40.3382778168 ms
+FriCAS Time: 95.056438446 ms
+Test Schaum 14.132 : Test Passed.
+Maxima Time: 29.3093681335 ms
+FriCAS Time: 31.7572116852 ms
+Test Schaum 14.136 : Test Passed.
+Maxima Time: 38.4549999237 ms
+FriCAS Time: 65.0010108948 ms
+Test Schaum 14.135 : Test Passed.
+Maxima Time: 34.1041946411 ms
+FriCAS Time: 26.9659996033 ms
+Test Schaum 14.134 : Test Passed.
+Maxima Time: 39.864358902 ms
+FriCAS Time: 30.2314758301 ms
+Test Schaum 14.133 : Test Passed.
+Maxima Time: 36.526632309 ms
+FriCAS Time: 14.4384384155 ms
+Test Schaum 14.125 : Test Passed.
+Maxima Time: 35.9474182129 ms
+FriCAS Time: 22.7486419678 ms
+Test Schaum 14.126 : Test Passed.
+Maxima Time: 35.9358787537 ms
+FriCAS Time: 19.8299598694 ms
+Test Schaum 14.130 : Test Passed.
+Maxima Time: 41.4517879486 ms
+FriCAS Time: 29.2195510864 ms
+Test Schaum 14.137 : Test Passed.
+Maxima Time: 50.0061988831 ms
+FriCAS Time: 50.9432315826 ms
+Test Schaum 14.131 : Test Passed.
+Maxima Time: 44.9043750763 ms
+FriCAS Time: 49.3690013885 ms
+Test Schaum 14.127 : Test Passed.
+Maxima Time: 43.8745975494 ms
+FriCAS Time: 20.9895992279 ms
+Test Schaum 14.142 : Test failed. Unable to compare results.
+Calculated Integral:  
+                                /      m
+                                [     x
+                                I ---------- dx
+                                ]   2    2 n
+                                / (x  + a )
+Maxima Time: 67.8339958191 ms
+FriCAS Time: 116.894006729 ms
+Test Schaum 14.143 : Test failed. Unable to compare results.
+Calculated Integral:  
+                              /
+                              [       1
+                              I ------------- dx
+                              ]  m   2    2 n
+                              / x  (x  + a )
+Maxima Time: 77.4410247803 ms
+FriCAS Time: 123.727798462 ms
+Test Schaum 14.140 : Test failed due to exception.
+Test Schaum 14.141 : Test failed. Unable to compare results.
+Calculated Integral:  
+                               /
+                               [      1
+                               I ------------ dx
+                               ]     2    2 n
+                               / x (x  + a )
+Maxima Time: 59.7781658173 ms
+FriCAS Time: 45.8069801331 ms

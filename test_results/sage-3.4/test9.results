@@ -1,0 +1,105 @@
+Test Schaum 14.199 : Test Passed.
+Maxima Time: 26.7172050476 ms
+FriCAS Time: 97.781419754 ms
+Test Schaum 14.198  Difference in Results: 
+                              2    2                 x
+                    log(sqrt(x  + a ) + x) - arcsinh(------)
+                                                   abs(a)
+Correct within a constant of integration.
+Test Passed.
+Maxima Time: 28.0093955994 ms
+FriCAS Time: 88.324213028 ms
+Test Schaum 14.191  Difference in Results: 
+                  4         x        4           2    2
+                 aarcsinh(------) - a  log(sqrt(x  + a ) + x)
+                          abs(a)
+                 --------------------------------------------
+                                      8
+Correct within a constant of integration.
+Test Passed.
+Maxima Time: 33.3515644073 ms
+FriCAS Time: 176.969814301 ms
+Test Schaum 14.190 : Test Passed.
+Maxima Time: 28.5924434662 ms
+FriCAS Time: 77.4585723877 ms
+Test Schaum 14.193 : Test failed due to exception.
+Test Schaum 14.192 : Test Passed.
+Maxima Time: 33.119764328 ms
+FriCAS Time: 146.979999542 ms
+Test Schaum 14.195 : Test failed due to exception.
+Test Schaum 14.194 : Test failed due to exception.
+Test Schaum 14.197 : Test Passed.
+Maxima Time: 30.2921581268 ms
+FriCAS Time: 48.9016056061 ms
+Test Schaum 14.196 : Test Passed.
+Maxima Time: 35.4496002197 ms
+FriCAS Time: 37.3522281647 ms
+Test Schaum 14.209 : Test failed due to exception.
+Test Schaum 14.208 : Test failed due to exception.
+Test Schaum 14.201 : Test failed due to exception.
+Test Schaum 14.200 : Test failed due to exception.
+Test Schaum 14.203  Difference in Results: 
+                  4           2    2            4         x
+               3 a  log(sqrt(x  + a ) + x) - 3 aarcsinh(------)
+                                                        abs(a)
+               ------------------------------------------------
+                                      8
+Correct within a constant of integration.
+Test Passed.
+Maxima Time: 52.7254104614 ms
+FriCAS Time: 179.825782776 ms
+Test Schaum 14.202 : Test failed due to exception.
+Test Schaum 14.205  Difference in Results: 
+                  6         x        6           2    2
+                 aarcsinh(------) - a  log(sqrt(x  + a ) + x)
+                          abs(a)
+                 --------------------------------------------
+                                      16
+Correct within a constant of integration.
+Test Passed.
+Maxima Time: 40.5350208282 ms
+FriCAS Time: 330.188798904 ms
+Test Schaum 14.204 : Test Passed.
+Maxima Time: 36.2676048279 ms
+FriCAS Time: 142.352581024 ms
+Test Schaum 14.207 : Test failed due to exception.
+Test Schaum 14.206 : Test Passed.
+Maxima Time: 43.061208725 ms
+FriCAS Time: 263.588428497 ms
+Test Schaum 14.188 : Test failed due to exception.
+Test Schaum 14.189  Difference in Results: 
+                  2           2    2          2         x
+                 a  log(sqrt(x  + a ) + x) - aarcsinh(------)
+                                                      abs(a)
+                 --------------------------------------------
+                                      2
+Correct within a constant of integration.
+Test Passed.
+Maxima Time: 45.1276302338 ms
+FriCAS Time: 77.9637813568 ms
+Test Schaum 14.182  Difference in Results: 
+                              2    2                 x
+                    log(sqrt(x  + a ) + x) - arcsinh(------)
+                                                   abs(a)
+Correct within a constant of integration.
+Test Passed.
+Maxima Time: 39.5938396454 ms
+FriCAS Time: 34.1025829315 ms
+Test Schaum 14.183 : Test Passed.
+Maxima Time: 37.1399879456 ms
+FriCAS Time: 37.6565933228 ms
+Test Schaum 14.186 : Test failed due to exception.
+Test Schaum 14.187 : Test failed due to exception.
+Test Schaum 14.184  Difference in Results: 
+                  2         x        2           2    2
+                 aarcsinh(------) - a  log(sqrt(x  + a ) + x)
+                          abs(a)
+                 --------------------------------------------
+                                      2
+Correct within a constant of integration.
+Test Passed.
+Maxima Time: 44.3298339844 ms
+FriCAS Time: 82.4913978577 ms
+Test Schaum 14.185 : Test Passed.
+Maxima Time: 45.3092098236 ms
+FriCAS Time: 92.507982254 ms

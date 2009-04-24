@@ -1,0 +1,152 @@
+Test Schaum 14.338 : Test failed. Unable to compare results.
+Calculated Integral:  
+          2 m + 1               2 m + 1
+       - a        (2 m + 1) (- a        (4 m + 2)
+ /
+ [   p log(x)    2                          2       4   6 m log(x)
+ I  e        /((p  - 3 p + m (8 - 6 p) + 8 m  + 2) x   e
+ ]
+ /
+    2 m + 1       2                             2       3   4 m log(x)
+ + a        (- 3 p  + m (18 p - 24) + 9 p - 24 m  - 6) x   e
+    4 m + 2     2                             2       2   2 m log(x)
+ + a        (3 p  - 9 p + m (24 - 18 p) + 24 m  + 6) x   e
+    6 m + 3     2                          2
+ + a        (- p  + m (6 p - 8) + 3 p - 8 m  - 2) x) dx
+     p log(x)    2                          2       2   4 m log(x)
+ -  e        /((p  - 3 p + m (8 - 6 p) + 8 m  + 2) x   e
+    2 m + 1       2                             2          2 m log(x)
+ + a        (- 2 p  + m (12 p - 16) + 6 p - 16 m  - 4) x  e
+    4 m + 2   2                          2
+ + a        (p  - 3 p + m (8 - 6 p) + 8 m  + 2)))
+                           p log(x)
+                          e
+ - -------------------------------------------------------
+                       2 m log(x)    2 m + 1
+   (- p + 2 m + 1) x  e           + a        (p - 2 m - 1)
+Maxima Time: 53.3119678497 ms
+FriCAS Time: 65.1751995087 ms
+Test Schaum 14.328 : Test failed. Unable to compare results.
+Calculated Integral:  
+                              /
+                              [       1
+                              I ------------- dx
+                              ]  m   n    n r
+                              / x  (x  + a )
+Maxima Time: 161.376190186 ms
+FriCAS Time: 134.975385666 ms
+Test Schaum 14.329 : Test failed due to exception.
+Test Schaum 14.331 : Test Passed.
+Maxima Time: 22.1378040314 ms
+FriCAS Time: 78.0632019043 ms
+Test Schaum 14.330 : Test Passed.
+Maxima Time: 34.3106842041 ms
+FriCAS Time: 79.3756008148 ms
+Test Schaum 14.333 : Test failed. Unable to compare results.
+Calculated Integral:  
+                              /
+                              [       1
+                              I ------------- dx
+                              ]  m   n    n r
+                              / x  (x  - a )
+Maxima Time: 160.569000244 ms
+FriCAS Time: 145.913219452 ms
+Test Schaum 14.332 : Test failed. Unable to compare results.
+Calculated Integral:  
+                                /      m
+                                [     x
+                                I ---------- dx
+                                ]   n    n r
+                                / (x  - a )
+Maxima Time: 137.654829025 ms
+FriCAS Time: 153.0397892 ms
+Test Schaum 14.326 : Test Passed.
+Maxima Time: 22.3698139191 ms
+FriCAS Time: 74.8080253601 ms
+Test Schaum 14.327 : Test failed. Unable to compare results.
+Calculated Integral:  
+                                /      m
+                                [     x
+                                I ---------- dx
+                                ]   n    n r
+                                / (x  + a )
+Maxima Time: 143.276834488 ms
+FriCAS Time: 158.49480629 ms
+Test Schaum 14.337 : Test failed. Unable to compare results.
+Calculated Integral:  
+          2 m + 1             2 m + 1
+         a        (2 m + 1) (a        (4 m + 2)
+ /
+ [   p log(x)    2                          2       4   6 m log(x)
+ I  e        /((p  - 3 p + m (8 - 6 p) + 8 m  + 2) x   e
+ ]
+ /
+    2 m + 1     2                             2       3   4 m log(x)
+ + a        (3 p  - 9 p + m (24 - 18 p) + 24 m  + 6) x   e
+    4 m + 2     2                             2       2   2 m log(x)
+ + a        (3 p  - 9 p + m (24 - 18 p) + 24 m  + 6) x   e
+    6 m + 3   2                          2
+ + a        (p  - 3 p + m (8 - 6 p) + 8 m  + 2) x) dx
+     p log(x)    2                          2       2   4 m log(x)
+ -  e        /((p  - 3 p + m (8 - 6 p) + 8 m  + 2) x   e
+    2 m + 1     2                             2          2 m log(x)
+ + a        (2 p  - 6 p + m (16 - 12 p) + 16 m  + 4) x  e
+    4 m + 2   2                          2
+ + a        (p  - 3 p + m (8 - 6 p) + 8 m  + 2)))
+                            p log(x)
+                           e
+ - ---------------------------------------------------------
+                       2 m log(x)    2 m + 1
+   (- p + 2 m + 1) x  e           + a        (- p + 2 m + 1)
+Maxima Time: 55.1064014435 ms
+FriCAS Time: 69.6341991425 ms
+Test Schaum 14.325 : Test Passed.
+Maxima Time: 34.8131656647 ms
+FriCAS Time: 80.0780296326 ms
+Test Schaum 14.334 : Test failed due to exception.
+Test Schaum 14.335 : Test failed. Unable to compare results.
+Calculated Integral:  
+                            /
+            2 m       2 m   [   p log(x)
+         2 a    m (4 a    m I  e
+                            ]
+                            /
+    2              2      6 m log(x)    2 m     2                2
+/((p  - 6 m p + 8 m ) x  e           + a    (3 p  - 18 m p + 24 m ) x
+   4 m log(x)    4 m     2                2      2 m log(x)
+  e           + a    (3 p  - 18 m p + 24 m ) x  e
+    6 m   2              2            p log(x)
+ + a    (p  - 6 m p + 8 m ) x) dx -  e
+    2              2    4 m log(x)    2 m     2                2    2 m log(x)
+/((p  - 6 m p + 8 m )  e           + a    (2 p  - 12 m p + 16 m )  e
+                                                p log(x)
+    4 m   2              2                     e
+ + a    (p  - 6 m p + 8 m ))) - ---------------------------------------
+                                            2 m log(x)    2 m
+                                (2 m - p)  e           + a    (2 m - p)
+Maxima Time: 60.2553844452 ms
+FriCAS Time: 72.785615921 ms
+Test Schaum 14.336 : Test failed. Unable to compare results.
+Calculated Integral:  
+                                /
+              2 m         2 m   [   p log(x)
+         - 2 a    m (- 4 a    m I  e
+                                ]
+                                /
+    2              2      6 m log(x)    2 m       2                2
+/((p  - 6 m p + 8 m ) x  e           + a    (- 3 p  + 18 m p - 24 m ) x
+   4 m log(x)    4 m     2                2      2 m log(x)
+  e           + a    (3 p  - 18 m p + 24 m ) x  e
+    6 m     2              2            p log(x)
+ + a    (- p  + 6 m p - 8 m ) x) dx -  e
+    2              2    4 m log(x)    2 m       2                2
+/((p  - 6 m p + 8 m )  e           + a    (- 2 p  + 12 m p - 16 m )
+   2 m log(x)    4 m   2              2
+  e           + a    (p  - 6 m p + 8 m )))
+                   p log(x)
+                  e
+ - ---------------------------------------
+               2 m log(x)    2 m
+   (2 m - p)  e           + a    (p - 2 m)
+Maxima Time: 60.9417915344 ms
+FriCAS Time: 70.4938411713 ms

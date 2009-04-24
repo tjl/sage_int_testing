@@ -1,0 +1,36 @@
+Test 1 : Test Passed.
+Maxima Time: 28.2577228546 ms
+FriCAS Time: 80.4941654205 ms
+Test 2 : Test Passed.
+Maxima Time: 30.9143257141 ms
+FriCAS Time: 145.652389526 ms
+Test 3 : Test Passed.
+Maxima Time: 45.0656414032 ms
+FriCAS Time: 226.375198364 ms
+Test 4 : Test Passed.
+Maxima Time: 44.921207428 ms
+FriCAS Time: 235.787200928 ms
+Test 5 : Test Passed.
+Maxima Time: 50.4203796387 ms
+FriCAS Time: 607.781600952 ms
+Test 6 : Test failed. Unable to compare results.
+Calculated Integral:  
+                          /
+                          [           1
+                          I --------------------- dx
+                          ]          m          n
+                          / (a x + b)  (p x + q)
+Maxima Time: 100.402832031 ms
+FriCAS Time: 316.022586823 ms
+Test 7 : Test Passed.
+Maxima Time: 32.1467971802 ms
+FriCAS Time: 34.5674037933 ms
+Test 8 : Test failed. Unable to compare results.
+Calculated Integral:  
+                                /          m
+                                [ (a x + b)
+                                I ---------- dx
+                                ]          n
+                                / (p x + q)
+Maxima Time: 73.7676143646 ms
+FriCAS Time: 273.215579987 ms

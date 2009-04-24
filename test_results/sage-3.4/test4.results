@@ -1,0 +1,32 @@
+Test 1 : Test Passed.
+Maxima Time: 29.9369239807 ms
+FriCAS Time: 38.8837814331 ms
+Test 2 : Test failed due to exception.
+Test 3 : Test failed due to exception.
+Test 4 : Test failed. Unable to compare results.
+Calculated Integral:  
+                         /
+                         [            1
+                         I ------------------------ dx
+                         ]                        n
+                         / sqrt(a x + b) (p x + q)
+Maxima Time: 103.561401367 ms
+FriCAS Time: 80.8660030365 ms
+Test 5 : Test failed. Unable to compare results.
+Calculated Integral:  
+                              /           n
+                              [  (p x + q)
+                              I ------------- dx
+                              ] sqrt(a x + b)
+                              /
+Maxima Time: 103.664207458 ms
+FriCAS Time: 89.7156238556 ms
+Test 6 : Test failed. Unable to compare results.
+Calculated Integral:  
+                              /
+                              [ sqrt(a x + b)
+                              I ------------- dx
+                              ]           n
+                              /  (p x + q)
+Maxima Time: 91.2338256836 ms
+FriCAS Time: 91.5561676025 ms

@@ -1,0 +1,36 @@
+Test Schaum 14.317 : Test Passed.
+Maxima Time: 31.9579601288 ms
+FriCAS Time: 35.1222038269 ms
+Test Schaum 14.316 : Test failed due to exception.
+Test Schaum 14.315 : Test Passed.
+Maxima Time: 26.8250751495 ms
+FriCAS Time: 185.188388824 ms
+Test Schaum 14.314 : Test Passed.
+Maxima Time: 43.4045791626 ms
+FriCAS Time: 29.3978214264 ms
+Test Schaum 14.313 : Test failed due to exception.
+Test Schaum 14.312 : Test Passed.
+Maxima Time: 27.6728153229 ms
+FriCAS Time: 26.598482132 ms
+Test Schaum 14.311 : Test failed due to exception.
+Test Schaum 14.322 : Test Passed.
+Maxima Time: 32.797794342 ms
+FriCAS Time: 90.9225940704 ms
+Test Schaum 14.323 : Test Passed.
+Maxima Time: 40.5930042267 ms
+FriCAS Time: 94.1301822662 ms
+Test Schaum 14.320 : Test Passed.
+Maxima Time: 39.5308017731 ms
+FriCAS Time: 76.5875816345 ms
+Test Schaum 14.321 : Test Passed.
+Maxima Time: 23.5207557678 ms
+FriCAS Time: 34.5503997803 ms
+Test Schaum 14.319 : Test Passed.
+Maxima Time: 45.9075927734 ms
+FriCAS Time: 37.299823761 ms
+Test Schaum 14.318 : Test Passed.
+Maxima Time: 42.6385879517 ms
+FriCAS Time: 105.142402649 ms
+Test Schaum 14.324 : Test Passed.
+Maxima Time: 39.5852375031 ms
+FriCAS Time: 44.8796272278 ms

@@ -1,0 +1,44 @@
+Test Schaum 14.274 : Test failed due to exception.
+Test Schaum 14.275 : Test failed. Unable to compare results.
+Calculated Integral:  
+                            /         m
+                            [        x
+                            I ----------------- dx
+                            ]     2           n
+                            / (a x  + b x + c)
+Maxima Time: 81.7265987396 ms
+FriCAS Time: 568.191766739 ms
+Test Schaum 14.276 : Test failed. Unable to compare results.
+Calculated Integral:  
+                            /      2 n - 1
+                            [     x
+                            I ----------------- dx
+                            ]     2           n
+                            / (a x  + b x + c)
+Maxima Time: 80.753993988 ms
+FriCAS Time: 393.181037903 ms
+Test Schaum 14.270 : Test failed due to exception.
+Test Schaum 14.271 : Test failed. Unable to compare results.
+Calculated Integral:  
+                           /
+                           [          1
+                           I ------------------- dx
+                           ]  n     2
+                           / x  (a x  + b x + c)
+Maxima Time: 41.6987895966 ms
+FriCAS Time: 59.3016147614 ms
+Test Schaum 14.272 : Test failed due to exception.
+Test Schaum 14.273 : Test failed due to exception.
+Test Schaum 14.267 : Test failed due to exception.
+Test Schaum 14.266 : Test failed due to exception.
+Test Schaum 14.265 : Test failed due to exception.
+Test Schaum 14.269 : Test failed due to exception.
+Test Schaum 14.268 : Test failed. Unable to compare results.
+Calculated Integral:  
+                              /        m
+                              [       x
+                              I -------------- dx
+                              ]    2
+                              / a x  + b x + c
+Maxima Time: 46.7335224152 ms
+FriCAS Time: 58.5745811462 ms

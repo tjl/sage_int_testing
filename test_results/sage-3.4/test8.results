@@ -1,0 +1,147 @@
+Test Schaum 14.178 : Test failed due to exception.
+Test Schaum 14.181 : Test failed. Unable to compare results.
+Calculated Integral:  
+                              /
+                              [       1
+                              I ------------- dx
+                              ]  m   2    2 n
+                              / x  (a  - x )
+Maxima Time: 123.643398285 ms
+FriCAS Time: 122.670221329 ms
+Test Schaum 14.177 : Test failed. Unable to compare results.
+Calculated Integral:  
+                                /
+                                [     1
+                                I ---------- dx
+                                ]   2    2 n
+                                / (a  - x )
+Maxima Time: 58.7829589844 ms
+FriCAS Time: 43.5781955719 ms
+Test Schaum 14.180 : Test failed. Unable to compare results.
+Calculated Integral:  
+                                /      m
+                                [     x
+                                I ---------- dx
+                                ]   2    2 n
+                                / (a  - x )
+Maxima Time: 112.321186066 ms
+FriCAS Time: 138.500213623 ms
+Test Schaum 14.179 : Test failed. Unable to compare results.
+Calculated Integral:  
+                               /
+                               [      1
+                               I ------------ dx
+                               ]     2    2 n
+                               / x (a  - x )
+Maxima Time: 43.0656433105 ms
+FriCAS Time: 45.2383995056 ms
+Test Schaum 14.176  Difference in Results: 
+                                   log(- 1)
+                                   --------
+                                       6
+                                      a
+Correct within a constant of integration.
+Test Passed.
+Maxima Time: 26.177406311 ms
+FriCAS Time: 76.6903877258 ms
+Test Schaum 14.164 : Test Passed.
+Maxima Time: 22.0747566223 ms
+FriCAS Time: 20.1557922363 ms
+Test Schaum 14.165  Difference in Results: 
+                                  log(- 1) a
+                                  ----------
+                                      2
+Correct within a constant of integration.
+Test Passed.
+Maxima Time: 26.0288333893 ms
+FriCAS Time: 30.5495738983 ms
+Test Schaum 14.166  Difference in Results: 
+                                            2
+                                  log(- 1) a
+                                  -----------
+                                       2
+Correct within a constant of integration.
+Test Passed.
+Maxima Time: 26.5044784546 ms
+FriCAS Time: 22.9544830322 ms
+Test Schaum 14.167  Difference in Results: 
+                                   log(- 1)
+                                   --------
+                                        2
+                                     2 a
+Correct within a constant of integration.
+Test Passed.
+Maxima Time: 35.2700805664 ms
+FriCAS Time: 43.1884288788 ms
+Test Schaum 14.163  Difference in Results: 
+                                   log(- 1)
+                                   --------
+                                     2 a
+Correct within a constant of integration.
+Test Passed.
+Maxima Time: 33.3013153076 ms
+FriCAS Time: 31.4098358154 ms
+Test Schaum 14.173  Difference in Results: 
+                                   log(- 1)
+                                   --------
+                                      2
+Correct within a constant of integration.
+Test Passed.
+Maxima Time: 41.0472774506 ms
+FriCAS Time: 29.9945259094 ms
+Test Schaum 14.172  Difference in Results: 
+                                    log(- 1)
+                                  - --------
+                                      4 a
+Correct within a constant of integration.
+Test Passed.
+Maxima Time: 45.0909996033 ms
+FriCAS Time: 40.5560016632 ms
+Test Schaum 14.171 : Test Passed.
+Maxima Time: 36.8880271912 ms
+FriCAS Time: 14.918794632 ms
+Test Schaum 14.170  Difference in Results: 
+                                   log(- 1)
+                                   --------
+                                        3
+                                     4 a
+Correct within a constant of integration.
+Test Passed.
+Maxima Time: 42.0164108276 ms
+FriCAS Time: 42.5874233246 ms
+Test Schaum 14.168  Difference in Results: 
+                                   log(- 1)
+                                   --------
+                                        3
+                                     2 a
+Correct within a constant of integration.
+Test Passed.
+Maxima Time: 43.4897899628 ms
+FriCAS Time: 39.191198349 ms
+Test Schaum 14.169  Difference in Results: 
+                                   log(- 1)
+                                   --------
+                                        4
+                                     2 a
+Correct within a constant of integration.
+Test Passed.
+Maxima Time: 42.7887916565 ms
+FriCAS Time: 50.6324291229 ms
+Test Schaum 14.175  Difference in Results: 
+                                  3 log(- 1)
+                                  ----------
+                                        5
+                                     4 a
+Correct within a constant of integration.
+Test Passed.
+Maxima Time: 53.7497997284 ms
+FriCAS Time: 70.2163696289 ms
+Test Schaum 14.174  Difference in Results: 
+                                   log(- 1)
+                                   --------
+                                        4
+                                     2 a
+Correct within a constant of integration.
+Test Passed.
+Maxima Time: 46.4185714722 ms
+FriCAS Time: 69.2889690399 ms
